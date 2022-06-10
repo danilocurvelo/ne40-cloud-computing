@@ -72,7 +72,7 @@ cd /opt/bitnami
 sudo sh -c 'echo "<?php phpinfo(); ?>" > apache2/htdocs/phpinfo.php'
 ```
 
-    O script `phpinfo.php` exibe sua configuração do PHP. É frequentemente usado para verificar uma nova instalação do PHP.
+> O script `phpinfo.php` exibe sua configuração do PHP. É frequentemente usado para verificar uma nova instalação do PHP.
 
 6. Para fechar a janela SSH, execute o seguinte comando:
 
@@ -88,5 +88,5 @@ exit
 http://SITE_ADDRESS/phpinfo.php
 ```
 
-    Um resumo da configuração do PHP do seu servidor é exibido.
+> Um resumo da configuração do PHP do seu servidor é exibido.
 
