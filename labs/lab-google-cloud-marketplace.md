@@ -1,10 +1,10 @@
 # Lab: Google Cloud Marketplace
 
-Duração: 25min
+Duração: 30min
 
 ## Introdução
 
-Neste laboratório, você usará o Cloud Marketplace para implantar de forma rápida e fácil uma pilha LAMP em uma instância do Compute Engine. O Bitnami LAMP Stack fornece um ambiente de desenvolvimento web completo para Linux que pode ser iniciado com um clique.
+Neste laboratório, você usará o **Cloud Marketplace** para implantar de forma rápida e fácil uma pilha LAMP em uma instância do **Compute Engine**. O **Bitnami LAMP Stack** fornece um ambiente de desenvolvimento web completo para Linux que pode ser iniciado com um clique.
 
 A pilha LAMP consiste em:
 
@@ -88,5 +88,9 @@ exit
 http://SITE_ADDRESS/phpinfo.php
 ```
 
-> Um resumo da configuração do PHP do seu servidor é exibido.
+Um resumo da configuração do PHP do seu servidor é exibido.
+
+## Finalize a sua atividade de laboratório
+
+Clique em **Excluir**, confirmando a exclusão de **lampstack-1 e todos os recursos criados por ela**.
 
