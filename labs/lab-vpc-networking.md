@@ -1,6 +1,6 @@
-# Lab: Google Cloud Marketplace
+# Lab: Rede VPC
 
-Duração: 1h40min
+Duração: 2h
 
 ## Introdução
 
@@ -9,6 +9,8 @@ A nuvem privada virtual (**VPC** - *virtual private cloud*) do Google Cloud ofer
 Você pode pensar em uma rede VPC como algo similar a uma rede física, exceto que ela é virtualizada no Google Cloud. Uma rede VPC é um recurso global que consiste em uma lista de sub-redes virtuais regionais em data centers, todas conectadas por uma rede de longa distância (WAN) global. As redes VPC são logicamente isoladas umas das outras no Google Cloud.
 
 Neste roteiro de laboratório, você irá criar uma rede VPC de modo automático com regras de *firewall* e duas instâncias de VM. Em seguida, você converte a rede de modo automático em uma rede de modo personalizado e cria outras redes de modo personalizado conforme mostrado no diagrama de rede abaixo. Você também testa a conectividade entre redes.
+
+![Tarefa 3](imgs/lab-vpc-networking-task3.png)
 
 ## Objetivos
 
@@ -20,6 +22,8 @@ Neste roteiro de laboratório, você aprenderá a realizar as seguintes tarefas:
 - Criar redes VPC de modo personalizado com regras de *firewall*;
 - Criar instâncias de VM usando o *Compute Engine*;
 - Explorar a conectividade de instâncias de VM em redes VPC.
+
+## Tarefas
 
 ### **Tarefa 1:** Explore a rede VPC padrão (*default*)
 

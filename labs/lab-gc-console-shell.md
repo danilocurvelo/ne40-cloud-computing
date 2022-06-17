@@ -1,6 +1,6 @@
 # Lab: Google Cloud Console e Shell
 
-Duração: 45min
+Duração: 1h
 
 ## Introdução
 

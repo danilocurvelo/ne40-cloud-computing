@@ -1,6 +1,6 @@
 # Lab: Google Cloud Marketplace
 
-Duração: 30min
+Duração: 45min
 
 ## Introdução
 

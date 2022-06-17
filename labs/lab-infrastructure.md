@@ -1,6 +1,6 @@
 # Lab: Google Cloud Marketplace
 
-Duração: 40min
+Duração: 1h
 
 ## Introdução
 
@@ -13,6 +13,8 @@ Neste roteiro de laboratório, você aprenderá a realizar as seguintes tarefas:
 - Usar o Marketplace para criar um ambiente de integração contínua com o Jenkins;
 - Verificar se você pode gerenciar o serviço pela GUI do Jenkins;
 - Administrar o serviço a partir da máquina virtual através de SSH.
+
+## Tarefas
 
 ### **Tarefa 1:** Use o Marketplace para criar uma implantação Jenkins
 
