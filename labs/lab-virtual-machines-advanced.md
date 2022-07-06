@@ -21,6 +21,8 @@ Neste roteiro de laboratório, você aprenderá a realizar as seguintes tarefas:
 - Configurar acesso à rede;
 - Agendar backups regulares.
 
+## Tarefas
+
 ### **Tarefa 1:** Crie a VM
 
 #### Definir uma VM usando opções avançadas
