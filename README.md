@@ -1,2 +1,3 @@
 # ne40-cloud-computing
-[NE4.0] Cloud Computing
+
+[Distribuição das contas @imd](https://docs.google.com/spreadsheets/d/1FqjkskWNrC_OmLvCAmSFfyNGtb9bhsRfDBKFEIVq7ko/edit?usp=sharing)
