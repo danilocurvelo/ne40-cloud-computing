@@ -227,3 +227,7 @@ O Cloud Shell fornece:
 - Controle detalhado;
 - Uma gama completa de opções e recursos;
 - Um caminho para a automação por meio de scripts.
+
+### Finalize a sua atividade de laboratório
+
+ No Cloud Console, em **Cloud Storage > Navegador**, exclua os dois *buckets* criados para esta atividade. Feche também o Cloud Shell.
