@@ -14,7 +14,7 @@ O objetivo deste laboratório é tornar o ambiente do Google Cloud Console e do 
 
 ### **Tarefa 1.** Use o Cloud Console para criar um *bucket*
 
-Nesta tarefa, você cria um *bucket*. Não se importe tanto na definição do bucket, pois nosso propósito aqui é se familiarizar com a interface do Cloud Console.
+Nesta tarefa, você cria um *bucket*. Não se importe tanto na definição do _bucket_, pois nosso propósito aqui é se familiarizar com a interface do Cloud Console.
 
 1. No Cloud Console, no **menu de navegação** (três barras horizontais), clique em **Cloud Storage > Navegador**.
 
@@ -26,7 +26,7 @@ Nesta tarefa, você cria um *bucket*. Não se importe tanto na definição do bu
 
 O menu do Google Cloud contém um ícone de **Notificações** (sino). Às vezes, o *feedback* dos comandos "por baixo dos panos" é fornecido lá. Se você não tiver certeza do que está acontecendo, verifique Notificações para obter informações adicionais e também o histórico.
 
-Fique a vontade para explorar ainda mais o Google Cloud Console! Independente do serviço utilizado (GCP, AWS< Azure), todos eles oferecem recursos muito similares.
+Fique a vontade para explorar ainda mais o Google Cloud Console! Independente do serviço utilizado (GCP, AWS, Azure), todos eles oferecem recursos muito similares.
 
 ### **Tarefa 2.** Acesse o Cloud Shell
 
@@ -191,7 +191,7 @@ nano .profile
 2. Adicione a seguinte linha ao final do arquivo:
 
 ```bash
-fonte infraclass/config
+source infraclass/config
 ```
 
 3. Pressione **Ctrl+O, ENTER** para salvar o arquivo e, em seguida, pressione **Ctrl+X** para sair do `nano`.
