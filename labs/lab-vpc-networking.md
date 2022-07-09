@@ -136,7 +136,7 @@ Essas são as mesmas regras de *firewall* padrão que a rede *default* tinha. As
 
 Quando a nova rede estiver pronta, observe que uma sub-rede foi criada para cada região.
 
-7. Registre o intervalo de endereços IP para as sub-redes em `us-central1` e `europe-west1`.
+7. Anote o intervalo de endereços IP para as sub-redes em `us-central1` e `europe-west1`.
 
 Estes serão utilizados nas próximas etapas.
 
