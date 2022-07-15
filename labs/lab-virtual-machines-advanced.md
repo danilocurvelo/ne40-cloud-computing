@@ -355,7 +355,7 @@ sudo chmod 755 /home/minecraft/backup.sh
 
 2. Após a conclusão do *script*, retorne ao Cloud Console.
 
-3. Para verificar se o arquivo de *backup* foi gravado, no menu **Navegação**, clique em **Armazenamento > Navegador**.
+3. Para verificar se o arquivo de *backup* foi gravado, no menu **Navegação**, clique em **Cloud Storage > Navegador**.
 
 4. Clique no nome do *bucket* de *backup*. Você deve ver uma pasta com um nome e rótulo de data e hora. Agora que você verificou se os *backups* estão funcionando, você pode agendar um *cron job* para automatizar a tarefa.
 
