@@ -28,7 +28,7 @@ Neste roteiro de laboratório, você aprenderá a realizar as seguintes tarefas:
 #### Definir uma VM usando opções avançadas
 
 1. No Cloud Console, no menu **Navegação**, clique em **Compute Engine > Instâncias de VM**.
-
+sudo screen -r -X stuff '/stop\n'
 2. Clique em **Criar instância**.
 
 3. Especifique o seguinte e deixe as configurações restantes como padrão:
@@ -430,5 +430,6 @@ Exclua todas as instâncias de VM, discos de armazenamento, regras de *firewall*
 
 - Em **Compute Engine > instâncias de VM**, exclua **mc-server**.
 - Em **Compute Engine > Storage > Discos**, exclua o disco **minecraft-disk**.
+- Em **Cloud Storage > Navegador**, exclua o _bucket_ criado para os _backups_.
 - Em **Rede VPC > Firewall**, exclua a regra criada (**minecraft-rule**).
 - Em **Rede VPC > Endereços IP**, libere o IP estático criado (**mc-server-ip**).
