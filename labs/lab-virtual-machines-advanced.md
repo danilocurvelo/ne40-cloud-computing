@@ -317,7 +317,7 @@ gsutil mb gs://$YOUR_BUCKET_NAME-minecraft-backup
 1. No terminal **SSH** do **mc-server**, navegue até seu diretório inicial:
 
 ```
-cd/home/minecraft
+cd /home/minecraft
 ```
 
 2. Para criar o *script*, execute o seguinte comando:
