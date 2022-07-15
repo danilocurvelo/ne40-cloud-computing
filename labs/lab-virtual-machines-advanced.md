@@ -204,7 +204,7 @@ Se você iniciar o servidor Minecraft novamente agora, ele estará vinculado à 
 1. Para instalar o `screen`, execute o seguinte comando:
 
 ```
-sudo apt-get install -y tela
+sudo apt-get install -y screen
 ```
 
 2. Para iniciar seu servidor Minecraft em um terminal virtual `screen`, execute o seguinte comando: 
@@ -234,10 +234,10 @@ Resultado (não copie; esta é a saída de exemplo):
 1. Para desanexar o terminal do `screen`, pressione `Ctrl+A`, `Ctrl+D`. O terminal virtual continua a ser executado em segundo plano. Para reconectar o terminal, execute o seguinte comando:
 
 ```
-sudo tela -r mcs
+sudo screen -r mcs
 ```
 
-2. Se necessário, saia do terminal de tela pressionando `Ctrl+A`, `Ctrl+D`.
+2. Se necessário, saia do terminal `screen` pressionando `Ctrl+A`, `Ctrl+D`.
 
 3. Para sair do terminal SSH, execute o seguinte comando:
 
