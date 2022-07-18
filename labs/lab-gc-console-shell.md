@@ -4,7 +4,7 @@ Duração: 1h
 
 ## Introdução
 
-Neste laboratório, você se familiarizará com a interface web do Google Cloud. Existem dois ambientes integrados: um ambiente com GUI (interface gráfica) chamado **Cloud Console** e uma CLI (interface de linha de comando) chamada **Cloud Shell**. Neste laboratório, você usará os dois ambientes.
+Neste laboratório, você se familiarizará com a interface *web* do Google Cloud. Existem dois ambientes integrados: um ambiente com GUI (interface gráfica) chamado **Cloud Console** e uma CLI (interface de linha de comando) chamada **Cloud Shell**. Neste laboratório, você usará os dois ambientes.
 
 ## Objetivos
 
@@ -14,7 +14,7 @@ O objetivo deste laboratório é tornar o ambiente do Google Cloud Console e do 
 
 ### **Tarefa 1.** Use o Cloud Console para criar um *bucket*
 
-Nesta tarefa, você cria um *bucket*. Não se importe tanto na definição do bucket, pois nosso propósito aqui é se familiarizar com a interface do Cloud Console.
+Nesta tarefa, você cria um *bucket*. Não se importe tanto na definição do *bucket*, pois nosso propósito aqui é se familiarizar com a interface do Cloud Console.
 
 1. No Cloud Console, no **menu de navegação** (três barras horizontais), clique em **Cloud Storage > Navegador**.
 
