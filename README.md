@@ -4,7 +4,7 @@
 
 Para a avaliação final da disciplina, os últimos roteiros de laboratório devem ser feitos, e enviados, individualmente, conforme orientações para cada uma das atividades. Lembre de fazer a submissão do resultado **antes** de encerrar o roteiro (apagando os recursos). Vefifique que você está fazendo a submissão no formulário usando o email `@imd.ufrn.br`.
 
-A submissão deve ser feita até as **22:00 do dia 22/07/2022**. Estarei disponível para atendimento síncrono *online*, na sala do Meet da disciplina, na quinta-feira dia 21/07/2022.
+A submissão deve ser feita até as **23:59 do dia 22/07/2022**. Estarei disponível para atendimento síncrono *online*, na sala do Meet da disciplina, na quinta-feira dia 21/07/2022.
 
 ### **1. lab-cloud-storage**
 
