@@ -28,7 +28,7 @@ Neste roteiro de laboratório, você aprenderá a realizar as seguintes tarefas:
 #### Definir uma VM usando opções avançadas
 
 1. No Cloud Console, no menu **Navegação**, clique em **Compute Engine > Instâncias de VM**.
-
+sudo screen -r -X stuff '/stop\n'
 2. Clique em **Criar instância**.
 
 3. Especifique o seguinte e deixe as configurações restantes como padrão:
@@ -204,7 +204,7 @@ Se você iniciar o servidor Minecraft novamente agora, ele estará vinculado à 
 1. Para instalar o `screen`, execute o seguinte comando:
 
 ```
-sudo apt-get install -y tela
+sudo apt-get install -y screen
 ```
 
 2. Para iniciar seu servidor Minecraft em um terminal virtual `screen`, execute o seguinte comando: 
@@ -234,10 +234,10 @@ Resultado (não copie; esta é a saída de exemplo):
 1. Para desanexar o terminal do `screen`, pressione `Ctrl+A`, `Ctrl+D`. O terminal virtual continua a ser executado em segundo plano. Para reconectar o terminal, execute o seguinte comando:
 
 ```
-sudo tela -r mcs
+sudo screen -r mcs
 ```
 
-2. Se necessário, saia do terminal de tela pressionando `Ctrl+A`, `Ctrl+D`.
+2. Se necessário, saia do terminal `screen` pressionando `Ctrl+A`, `Ctrl+D`.
 
 3. Para sair do terminal SSH, execute o seguinte comando:
 
@@ -317,7 +317,7 @@ gsutil mb gs://$YOUR_BUCKET_NAME-minecraft-backup
 1. No terminal **SSH** do **mc-server**, navegue até seu diretório inicial:
 
 ```
-cd/home/minecraft
+cd /home/minecraft
 ```
 
 2. Para criar o *script*, execute o seguinte comando:
@@ -355,7 +355,7 @@ sudo chmod 755 /home/minecraft/backup.sh
 
 2. Após a conclusão do *script*, retorne ao Cloud Console.
 
-3. Para verificar se o arquivo de *backup* foi gravado, no menu **Navegação**, clique em **Armazenamento > Navegador**.
+3. Para verificar se o arquivo de *backup* foi gravado, no menu **Navegação**, clique em **Cloud Storage > Navegador**.
 
 4. Clique no nome do *bucket* de *backup*. Você deve ver uma pasta com um nome e rótulo de data e hora. Agora que você verificou se os *backups* estão funcionando, você pode agendar um *cron job* para automatizar a tarefa.
 
@@ -430,5 +430,6 @@ Exclua todas as instâncias de VM, discos de armazenamento, regras de *firewall*
 
 - Em **Compute Engine > instâncias de VM**, exclua **mc-server**.
 - Em **Compute Engine > Storage > Discos**, exclua o disco **minecraft-disk**.
+- Em **Cloud Storage > Navegador**, exclua o _bucket_ criado para os _backups_.
 - Em **Rede VPC > Firewall**, exclua a regra criada (**minecraft-rule**).
 - Em **Rede VPC > Endereços IP**, libere o IP estático criado (**mc-server-ip**).

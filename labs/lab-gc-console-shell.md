@@ -26,7 +26,7 @@ Nesta tarefa, você cria um *bucket*. Não se importe tanto na definição do *b
 
 O menu do Google Cloud contém um ícone de **Notificações** (sino). Às vezes, o *feedback* dos comandos "por baixo dos panos" é fornecido lá. Se você não tiver certeza do que está acontecendo, verifique Notificações para obter informações adicionais e também o histórico.
 
-Fique a vontade para explorar ainda mais o Google Cloud Console! Independente do serviço utilizado (GCP, AWS< Azure), todos eles oferecem recursos muito similares.
+Fique a vontade para explorar ainda mais o Google Cloud Console! Independente do serviço utilizado (GCP, AWS, Azure), todos eles oferecem recursos muito similares.
 
 ### **Tarefa 2.** Acesse o Cloud Shell
 
@@ -191,7 +191,7 @@ nano .profile
 2. Adicione a seguinte linha ao final do arquivo:
 
 ```bash
-fonte infraclass/config
+source infraclass/config
 ```
 
 3. Pressione **Ctrl+O, ENTER** para salvar o arquivo e, em seguida, pressione **Ctrl+X** para sair do `nano`.
@@ -227,3 +227,7 @@ O Cloud Shell fornece:
 - Controle detalhado;
 - Uma gama completa de opções e recursos;
 - Um caminho para a automação por meio de scripts.
+
+### Finalize a sua atividade de laboratório
+
+ No Cloud Console, em **Cloud Storage > Navegador**, exclua os dois *buckets* criados para esta atividade. Feche também o Cloud Shell.
