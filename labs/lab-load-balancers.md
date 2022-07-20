@@ -82,6 +82,8 @@ gcloud compute instances create www3 \
     echo '<!doctype html><html><body><h1>www3</h1></body></html>' | tee /var/www/html/index.html"
 ```
 
+> Caso esteja recebendo o erro: **ERROR: (gcloud.compute.instances.create) Could not fetch resource: - Invalid value for field 'resource.networkInterfaces[0].network': ... The referenced network resource cannot be found.**, garanta que você tem uma rede VPC chamada default. Pode ser que você tenha apagado em alguma atividade anterior. Se tiver apagado, basta criar uma rede VPC chamada *default*, em modo de criação automática, e marcar todas as regras de *firewall* que ele sugere. Você fez isso na atividade sobre redes VPC.
+
 2. Crie uma regra de *firewall* para permitir tráfego externo para as instâncias de VM:
 
 ```
