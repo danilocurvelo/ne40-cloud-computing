@@ -14,7 +14,7 @@ A submissão deve ser feita até as **23:59 do dia 23/07/2022**. Estarei dispon�
 
 - Formulário de submissão: [https://forms.gle/x33YigDwFPrvU4NC8](https://forms.gle/x33YigDwFPrvU4NC8)
 
-### **2. lab-cloud-storage**
+### **2. lab-load-balancers**
 
 - Roteiro: [labs/lab-load-balancers.md](labs/lab-load-balancers.md)
 
