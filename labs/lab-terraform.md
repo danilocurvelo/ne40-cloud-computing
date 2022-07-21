@@ -425,13 +425,13 @@ ping -c 3 <IP interno de mynet-eu-vm aqui>
 
 > **Observação**: isso deve funcionar porque ambas as instâncias de VM estão na mesma rede e a regra de *firewall* permite tráfego ICMP!
 
-### **Tarefa 7.** Revisão
+### **Tarefa 6.** Revisão
 
 Neste roteiro de laboratório, você criou uma configuração do Terraform com um módulo para automatizar a implantação da infraestrutura do Google Cloud. Conforme sua configuração muda, o Terraform pode criar planos de execução incrementais, o que permite que você construa sua configuração geral passo a passo.
 
 Você pode aproveitar a configuração e o módulo que criou como ponto de partida para implantações futuras.
 
-### **Tarefa 8.** Excluindo os recursos criados pelo Terraform
+### **Tarefa 7.** Excluindo os recursos criados pelo Terraform
 
 1. Para remover todos os recursos criados pela configuração que criamos no Terraform, no diretório `tfinfra` digite o seguinte comando:
 
